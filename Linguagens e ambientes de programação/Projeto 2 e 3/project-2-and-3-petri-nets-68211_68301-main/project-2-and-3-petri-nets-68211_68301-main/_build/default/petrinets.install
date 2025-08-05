@@ -1,0 +1,12 @@
+lib: [
+  "_build/install/default/lib/petrinets/META"
+  "_build/install/default/lib/petrinets/dune-package"
+  "_build/install/default/lib/petrinets/opam"
+]
+bin: [
+  "_build/install/default/bin/petrinets"
+]
+doc: [
+  "_build/install/default/doc/petrinets/LICENSE"
+  "_build/install/default/doc/petrinets/README.md"
+]

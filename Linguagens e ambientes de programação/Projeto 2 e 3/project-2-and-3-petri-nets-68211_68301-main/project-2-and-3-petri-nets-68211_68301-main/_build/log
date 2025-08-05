@@ -1,0 +1,31 @@
+# dune test
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/lmsrodrigues/.cache/dune/db
+# Workspace root:
+# /home/lmsrodrigues/lap2025/project-2-and-3-petri-nets-68211_68301
+# Auto-detected concurrency: 16
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/lmsrodrigues/.opam/lap2025/bin/ocamlc.opt -config > /tmp/dune_a72814_output
+$ (cd _build/default/test && ./test_petrinets_p2.exe)
+> ........................
+> Ran: 24 tests in: 0.14 seconds.
+> OK
+$ (cd _build/default/test && ./test_petrinets_p3.exe)
+> ...........................
+> Ran: 27 tests in: 0.14 seconds.
+> OK
+> ........
+> Ran: 8 tests in: 0.11 seconds.
+> OK
+> .......
+> Ran: 7 tests in: 0.11 seconds.
+> OK
